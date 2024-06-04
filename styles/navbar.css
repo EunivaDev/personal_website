@@ -4,4 +4,52 @@
     left: 0;
     height: 10vh; 
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+.navbar__logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar__list {
+    list-style-type: none;
+}
+
+.navbar__item {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar__item a {
+    text-decoration: none;
+    color: #386082;
+    transition: all 0.2s ease 0s;
+}
+
+.navbar__item a:hover {
+    color: #8eb4c7;
+    transition: all 0.2s ease 0s;
+}
+
+.navbar button {
+    padding: 15px 35px;
+    background-color: #8eb4c7;
+    border: none;
+    border-radius: 50px;
+    color: #386082;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    margin-left: 20px;
+}
+
+.navbar button:hover {
+    color: #8eb4c7;
+    background-color: #386082;
+    transition: all 0.2s ease 0s;
 }

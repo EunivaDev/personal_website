@@ -1,4 +1,10 @@
-body {
-    font-family: "Helvetica", Sans-Serif;
+* {
+    margin: 0;
+    padding: 0;
     background-color: #EDF5F7;
-}
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    box-sizing: border-box;
+};

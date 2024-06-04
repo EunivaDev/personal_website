@@ -1,3 +1,3 @@
-Color 1: edf5f7 (white) - 60%
-Color 2: 8eb4c7 (light blue) - 30%
+Color 1: EDF5F7 (white) - 60%
+Color 2: 8EB4C7 (light blue) - 30%
 Color 3: 386082 (darker blue) - 10%
