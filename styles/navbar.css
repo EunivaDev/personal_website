@@ -2,7 +2,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 10vh; 
+    height: 10vh;
+    min-height: 90px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -15,10 +16,12 @@
     height: auto;
     cursor: pointer;
     margin-right: auto;
+    transition: all 0.2s ease 0s;
 }
 
 .navbar__list {
     list-style-type: none;
+    transition: all 0.2s ease 0s;
 }
 
 .navbar__item {

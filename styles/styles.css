@@ -7,4 +7,31 @@
     font-size: 18px;
     font-style: normal;
     box-sizing: border-box;
-};
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.home-container {
+    height: 90vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.home__picture {
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 45%;
+    height: auto;
+}
+
+.home__picture img{
+    width: 100%;
+    height: auto;
+}
+
+.home__content {
+    margin-top: 1%;
+    width: 60%;
+    box-shadow: -20px 0px 50px 50px #EDF5F7;
+}
