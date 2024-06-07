@@ -13,6 +13,13 @@ body, html, nav {
     scroll-behavior: smooth;
 }
 
+.socials-container {
+    position: fixed;
+    float: right;
+    bottom: 5svh;
+    right: 0;
+}
+
 .home-container {
     min-height: 100svh;
     width: 100%;
