@@ -13,11 +13,15 @@ body, html, nav {
     scroll-behavior: smooth;
 }
 
-.socials-container {
-    position: fixed;
-    float: right;
-    bottom: 5svh;
-    right: 0;
+h1 {
+    font-size: 80px;
+    line-height: 100px;
+    color: #153b5c;
+}
+
+h2 {
+    font-size: 50px;
+    color: #8EB4C7;
 }
 
 .home-container {
@@ -57,13 +61,26 @@ body, html, nav {
     /*box-shadow: -20px 0px 50px 50px #EDF5F7;*/
 }
 
-h1 {
-    font-size: 80px;
-    line-height: 100px;
-    color: #153b5c;
+.home__socials-container {
+    position: absolute;
+    float: right;
+    bottom: 5svh;
+    right: 1svw;
+    background-color: #8EB4C7;
+    border-radius: 20px;
+    padding: 0px 5px;
 }
 
-h2 {
-    font-size: 50px;
-    color: #8EB4C7;
+.home__socials-container .fa {
+    font-size: 36px;
+    margin: 5px;
+    color: #153b5c;
+    transition: all 0.2s ease 0s;
+}
+
+.home__socials-container a i:hover {
+    cursor: pointer;
+    color: #EDF5F7;
+    scale: 1.2;
+    transition: all 0.2s ease 0s;
 }

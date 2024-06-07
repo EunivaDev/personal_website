@@ -39,6 +39,8 @@
 .navbar__item a:hover {
     color: #8eb4c7;
     transition: all 0.2s ease 0s;
+    background-color: #153b5c;
+    border-radius: 5px;
 }
 
 .navbar button {
