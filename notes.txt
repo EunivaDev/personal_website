@@ -1,3 +1,6 @@
 Color 1: EDF5F7 (white) - 60%
 Color 2: 8EB4C7 (light blue) - 30%
-Color 3: 386082 (darker blue) - 10%
+Color 3: 153b5c (darker blue) - 10%
+
+
+/*DO NOT USE VH, has issues with other platforms, svh, dvh, etc*/

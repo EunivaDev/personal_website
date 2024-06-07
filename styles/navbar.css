@@ -2,17 +2,18 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 10vh;
+    height: 10svh;
     min-height: 90px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10%;
+    z-index: 10;
 }
 
 .navbar__logo {
-    width: 100px;
+    width: 12svh;
     height: auto;
     cursor: pointer;
     margin-right: auto;
@@ -31,7 +32,7 @@
 
 .navbar__item a {
     text-decoration: none;
-    color: #386082;
+    color: #153b5c;
     transition: all 0.2s ease 0s;
 }
 
@@ -45,7 +46,7 @@
     background-color: #8eb4c7;
     border: none;
     border-radius: 50px;
-    color: #386082;
+    color: #153b5c;
     cursor: pointer;
     transition: all 0.2s ease 0s;
     margin-left: 20px;
@@ -53,6 +54,6 @@
 
 .navbar button:hover {
     color: #8eb4c7;
-    background-color: #386082;
+    background-color: #153b5c;
     transition: all 0.2s ease 0s;
 }

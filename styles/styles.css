@@ -1,28 +1,30 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #EDF5F7;
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
     font-size: 18px;
     font-style: normal;
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: hidden;
+}
+
+body, html, nav {
+    background-color: #EDF5F7;
+    scroll-behavior: smooth;
 }
 
 .home-container {
-    height: 90vh;
+    min-height: 100svh;
     width: 100%;
-    margin-top: 10vh;
+    padding-top: 10svh;
     display: flex;
 }
 
 .home__picture {
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 45%;
-    height: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
 }
 
 .home__picture img{
@@ -30,8 +32,31 @@
     height: auto;
 }
 
+/*cutout effect*/
+.home__picture:after {
+    content: "";
+    position: absolute;
+    margin: -110px;
+    width: 250px;
+    height: 200px;
+    transform: rotate(45deg);
+    background-color: #EDF5F7;
+    box-shadow: 0px 10px 10px -10px #000;
+}
+
 .home__content {
-    margin-top: 1%;
     width: 60%;
-    box-shadow: -20px 0px 50px 50px #EDF5F7;
+    z-index: 5;
+    /*box-shadow: -20px 0px 50px 50px #EDF5F7;*/
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 100px;
+    color: #153b5c;
+}
+
+h2 {
+    font-size: 50px;
+    color: #8EB4C7;
 }
