@@ -5,7 +5,12 @@ Very basic implementation for starting off web development. Further modification
 ## To-do List
 * [ ] Home Page<sub>wip</sub>
 * [X] Nav Bar
-* [ ] About Me Page
+* [ ] About Me Page<sub>wip</sub>
 * [ ] Resume Page
 * [ ] Projects Page
 * [ ] Contact Page
+
+### Notes
+home page image of myself, 
+fix icons location, 
+about me page filled out
